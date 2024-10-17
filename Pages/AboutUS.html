@@ -1,100 +1,41 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Service Cards</title>
-  <style>
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-      font-family: Arial, sans-serif;
-    }
-
-    body {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-      background-color: #f8f9fa;
-    }
-
-    .services-container {
-      display: flex;
-      gap: 20px;
-    }
-
-    .service-card {
-      background-color: #ffffff;
-      padding: 20px;
-      border-radius: 15px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      text-align: center;
-      width: 150px;
-      transition: transform 0.3s;
-    }
-
-    .service-card:hover {
-      transform: translateY(-10px);
-    }
-
-    .service-icon {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 60px;
-      height: 60px;
-      border-radius: 12px;
-      margin: 0 auto 15px auto;
-      font-size: 24px;
-      color: #fff;
-    }
-
-    .icon-web-app { background-color: #e8def8; color: #6d28d9; }
-    .icon-seo { background-color: #e6fbe6; color: #4caf50; }
-    .icon-ar-vr { background-color: #e3f2fd; color: #1976d2; }
-    .icon-mobile { background-color: #ffe8e8; color: #ff7043; }
-
-    .service-title {
-      font-size: 16px;
-      font-weight: bold;
-      margin-bottom: 5px;
-    }
-
-    .service-description {
-      font-size: 14px;
-      color: #757575;
-    }
-  </style>
-</head>
-<body>
-
-  <div class="services-container">
-    <div class="service-card">
-      <div class="service-icon icon-web-app">🌐</div>
-      <div class="service-title">Web Application</div>
-      <div class="service-description">Lorem Ipsum is simply</div>
-    </div>
-
-    <div class="service-card">
-      <div class="service-icon icon-seo">🔍</div>
-      <div class="service-title">SEO</div>
-      <div class="service-description">Lorem Ipsum is simply</div>
-    </div>
-
-    <div class="service-card">
-      <div class="service-icon icon-ar-vr">🕶️</div>
-      <div class="service-title">AR/VR Solutions</div>
-      <div class="service-description">Lorem Ipsum is simply</div>
-    </div>
-
-    <div class="service-card">
-      <div class="service-icon icon-mobile">📱</div>
-      <div class="service-title">Mobile Applications</div>
-      <div class="service-description">Lorem Ipsum is simply</div>
-    </div>
+<section class="container">
+  <div class="content">
+      <h1>Lorem Ipsum is simply dummy text of the printing.</h1>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.</p>
+      <div class="info">
+          <div class="icon">
+              <img src="icon.png" alt="Icon"> <!-- Replace with your icon -->
+          </div>
+          <div class="text-content">
+              <h2>Lorem Ipsum is simply dummy text</h2>
+              <p>Lorem Ipsum is simply dummy text</p>
+          </div>
+      </div>
+      <h2 class="blue-text">Lorem Ipsum</h2>
+      <p>KODEX TECHNOLOGY (PVT) LTD is a team of experienced mobile and web application developers and website builders measuring dozens of completed projects. We build and develop mobile applications for several top platforms, including Android & IOS.</p>
   </div>
+  <div class="image">
+      <img src="phone-mockup.png" alt="Mobile Mockup"> <!-- Replace with your phone mockup image -->
+  </div>
+</section>
 
-</body>
-</html>
+<style>* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
