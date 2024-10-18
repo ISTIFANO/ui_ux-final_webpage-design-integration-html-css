@@ -239,7 +239,7 @@ section.infotx {
   align-items: center;
   justify-content: space-between;
   padding: 40px;
-  max-width: 1500px;
+  max-width: 1400px;
   margin: auto;
   background-color: #fff;
 }
@@ -275,33 +275,28 @@ section.infotx {
   margin: 5px 0;
 }
 
-.highlighted-text {
+.text-content-color {
   font-size: 32px;
   font-weight: 700;
   color: #000;
   line-height: 1.2;
   margin-top: 10px;
 }
-
-.highlighted-text span {
+.text-content-color span {
   color: #3498db;
 }
-
 .description {
   font-size: 16px;
   color: #555;
   margin-top: 20px;
   line-height: 1.6;
 }
-
-
 .image img {
-  width: 450px;
+  width: 350px;
+  display: flex;
+padding-left: 54px;
 }
-
-
-
-  .text-section {
+.text-section {
   padding-right: 0;
   }
 
@@ -309,19 +304,13 @@ section.infotx {
   width: 100%;
   transform: none;
   margin-top: 20px;
-  }
-
-  
-  body {
-font-family: Arial, sans-serif;
-  }
-  
-  .container {
+  } 
+  .container2v1 {
 display: flex;
 align-items: center;
 justify-content: space-between;
 padding: 50px;
-max-width: 1500px;
+max-width: 1400px;
 margin: 0 auto;
   }
   
@@ -378,62 +367,6 @@ font-size: 16px;
 color: #555;
     line-height: 1.6;
   }
-  /* card2 section
-
-
-.cardsection {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-
-.card2v1{
-  background-color: white;
-  border-radius: 8px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  width: 300px;
-
-}
-
-.card2v2{
-  background-color: #3498db;
-  border-radius: 8px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  width: 300px;
-
-
-
-
-}
-
-h2 {
-  font-size: 1.5em;
-  margin-bottom: 10px;
-}
-
-p {
-  font-size: 1em;
-  
-  line-height: 1.5;
-  color: #555;
-  margin-bottom: 20px;
-}
-
-#Zimg{
-z-index:1000;
-height: 100px;
-width:130px;
-display:flex;
-align-items: start;
-justify-content: start;
-margin-top: -112px;
-
-
-} */
-
 .container2 {
   display: flex;
   justify-content: space-around;
@@ -578,12 +511,13 @@ footer {
 }
 .sectionlogo h3 {
   font-size: 1.5rem;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
   margin-bottom: 15px;
   color: #0f7cf1;
 }
 .sectionlogo p {
   font-size: 1rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   line-height: 1.5;
   margin-bottom: 10px;
   color: #000;
@@ -592,6 +526,7 @@ footer {
   font-size: 1.5rem;
   margin-bottom: 15px;
   color: #000;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
 
@@ -608,24 +543,22 @@ footer {
   text-decoration: none;
   color: #fff;
   color: #000;
-
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 1rem;
 }
 
-.about-us ul li a:hover {
-  color: #000;
-
-}
 .contact-us h3 {
   font-size: 1.5rem;
   margin-bottom: 15px;
   color: #000;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
 
 .contact-us p {
   margin-bottom: 10px;
   color: #000;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
   font-size: 1rem;
 }
@@ -633,7 +566,7 @@ footer {
 
 .icons a {
   color: #000;
-
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 1.2rem;
   margin-right: 15px;
   text-decoration: none;
