@@ -3,9 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Box Design</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <div class="container">
+        <!-- First box -->
+        <div class="box light-box">
+            <h2>Lorem Ipsum is simply dummy text.</h2>
+            <p>KODEX TECHNOLOGY (Pvt) LTD is a team of experienced mobile and web applications and website builders measuring dozens of completed projects. We build and develop mobile applications for several top platforms, including Android & IOS.</p>
+            <button class="btn">View More</button>
+        </div>
+
+        <!-- Second box -->
+        <div class="box dark-box">
+            <div class="notification-bell">
+                <img src="bell-icon.png" alt="Notification Bell">
+            </div>
+            <h2>Lorem Ipsum is simply dummy text.</h2>
+            <p>KODEX TECHNOLOGY (Pvt) LTD is a team of experienced mobile and web applications and website builders measuring dozens of completed projects. We build and develop mobile applications for several top platforms, including Android & IOS.</p>
+            <button class="btn">View More</button>
+        </div>
+    </div>
 </body>
 </html>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.box {
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+}
+
+.light-box {
+    background-color: #f1f1f1;
+}
+
+.dark-box {
+    background-color: #007bff;
+    color: white;
+}
+
+.box h2 {
+    margin-bottom: 15px;
+}
+
+.box p {
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: white;
+    color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btn:hover {
+    background-color: #e0e0e0;
+}
+
+.notification-bell {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+}
+
+.notification-bell img {
+    width: 30px;
+    height: 30px;
+}
